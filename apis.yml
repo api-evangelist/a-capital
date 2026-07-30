@@ -1,18 +1,61 @@
 aid: a-capital
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/a-capital.png
 name: A Capital
-description: A Capital is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  A.Capital Ventures is an early-stage venture capital firm founded by Ronny
+  Conway, a former partner at Andreessen Horowitz (a16z) and one of the first
+  employees at Google Ventures. The firm provides funding, talent, and strategic
+  counsel to founders building at the frontier of technology, with a portfolio
+  spanning AI and machine learning (OpenAI, Anthropic, Hugging Face,
+  Character.ai), developer tools (Notion, Replit, Databricks), and crypto and
+  consumer platforms (Coinbase, Uniswap, Reddit, Airbnb). A.Capital differs from
+  standard venture models by customizing investment amounts rather than
+  enforcing ownership thresholds, advising without mandatory board seats, and
+  staffing full-time Talent Partners to help early-stage teams hire and build
+  their organizational foundation. This profile was surfaced via the a16z
+  network (through founder Ronny Conway's a16z tenure) and enriched from the
+  firm's public website. A.Capital is a venture capital firm and does not
+  publish a developer-facing API surface, developer portal, or API artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/a-capital/refs/heads/main/apis.yml
 x-type: company
+x-subtype: venture-capital
 x-source: a16z-portfolio
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profile
+x-tier-reason: no-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Venture Capital
+- Investor
+- Early Stage
+- Artificial Intelligence
+- Developer Tools
+- Startups
 apis: []
+common:
+- type: Website
+  url: https://acapital.com/
+- type: Portal
+  url: https://acapital.com/
+- type: Blog
+  url: https://acapital.com/perspectives
+- type: Portfolio
+  url: https://acapital.com/portfolio
+- type: Team
+  url: https://acapital.com/team
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
