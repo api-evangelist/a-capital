@@ -33,7 +33,7 @@ x-subtype: venture-capital
 x-source: a16z-portfolio
 x-tier: profile
 x-tier-reason: no-api-surface
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
